@@ -14,3 +14,20 @@
   justify-content: center;
   width: 100%;
 }
+.linked {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 500px;
+  border: 2px solid red;
+}
+.tech {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

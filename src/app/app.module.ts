@@ -7,10 +7,11 @@ import { HelloComponent } from './hello.component';
 import { RetroLinkedinComponent } from './retro-linkedin/retro-linkedin.component';
 import { RetroTechLinksComponent } from './retro-tech-links/retro-tech-links.component';
 import { RetroHeadlinerComponent } from './retro-headliner/retro-headliner.component';
+import { RetroProjectsComponent } from './retro-projects/retro-projects.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, RetroTechLinksComponent, RetroLinkedinComponent, RetroHeadlinerComponent ],
+  declarations: [ AppComponent, HelloComponent, RetroTechLinksComponent, RetroLinkedinComponent, RetroHeadlinerComponent, RetroProjectsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
