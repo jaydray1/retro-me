@@ -12,6 +12,7 @@
   width: 100%;
   border: 2px solid blue;
   transition: transform .5s ease;
+  margin-top: 15px;
 }
 
 .pro-stamp:hover {
