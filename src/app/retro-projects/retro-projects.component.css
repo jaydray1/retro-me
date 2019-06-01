@@ -18,7 +18,7 @@
 }
 
 .pro-stamp {
-  height: 8em;
+  height: 5em;
   width: 100%;
   border: 2px solid blue;
   transition: transform .5s ease;
@@ -31,18 +31,19 @@
 }
 
 .link-container {
-  max-height: 100%;
-  width: 100%;
- 
+  height: 100%;
+  /* width: 100%; */
+  background-image: url('https://marmot-clone-start.s3-us-west-1.amazonaws.com/Screen+Shot+2019-06-01+at+4.25.18+AM.png');
+  background-size: contain;
 }
 
-h1 {
+/* h1 {
   text-align: center;
   text-align: -webkit-center;
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   padding: 20px;
-}
+} */
 
 a:link    {
   text-decoration:  none;

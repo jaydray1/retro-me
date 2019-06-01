@@ -41,6 +41,7 @@ img {
   position: relative;
   height: 60vh;
   filter: grayscale(100%);
+  margin-top: -7.5em;
   /* border: 2px solid red; */
 }
 
@@ -50,10 +51,19 @@ img {
   height: 5em;
   width: 15em;
   border: 2px solid red;
-  bottom: 0;
+  /* bottom: 0; */
   z-index: 10;
-  margin-top: -10em;
+  margin-top: -5em;
+  margin-left: 25%;
   font-size: 12px;
+  background-image: url(https://marmot-clone-start.s3-us-west-1.amazonaws.com/LinkedIn-Blue-14%402x.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+a {
+  height: 100%;
+  width: 100%;
 }
 
 img:hover {
@@ -71,4 +81,16 @@ img:hover ~ .linkedin-button {
   display: block;
   cursor: pointer;
 }
+
+a:link    {
+  text-decoration:  none;
+  /* font-weight:      bold; */
+  /* background-color: #ddd; */
+  color:            black;
+  } 
+
+  a:visited    {
+  text-decoration:  none;
+  color:            black;
+  } 
 
