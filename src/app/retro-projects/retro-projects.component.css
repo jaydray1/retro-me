@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 .main-pro-wrapper {
   display: flex;
   flex-direction: column;
@@ -19,3 +21,22 @@
   cursor: pointer;
   transform: scale(1.05);
 }
+.link-container {
+  min-height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+a:link    {
+  text-decoration:  none;
+  /* font-weight:      bold; */
+  /* background-color: #ddd; */
+  color:            white;
+  } 
+
+  a:visited    {
+  text-decoration:  none;
+  color:            white;
+  } 
+
